@@ -51,6 +51,7 @@ def newGraph(datastructure="ADJ_LIST",
     Raises:
         Exception
     """
+    print("Ojala Funcione")
     gr = graphSelector(datastructure)
     return gr.newGraph(size, cmpfunction,  directed, datastructure, gr)
 
